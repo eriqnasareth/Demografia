@@ -1,0 +1,77 @@
+\documentclass[12pt, a4paper, twoside]{article}
+\usepackage[left = 3cm, top = 3cm, right = 2cm, bottom = 2cm]{geometry}
+\usepackage[utf8]{inputenc}
+%\usepackage[portuguese]{babel}
+\renewcommand{\contentsname}{Sumário}
+\usepackage{amsmath, amsfonts, amssymb}
+\numberwithin{equation}{subsection} %subsection
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{colortbl}
+\usepackage{titletoc,titlesec}
+\usepackage{setspace}
+\usepackage{indentfirst}
+%\usepackage{natbib}
+\usepackage[colorlinks=true, allcolors=black]{hyperref}
+%\usepackage[brazilian,hyperpageref]{backref}
+\usepackage[alf]{abntex2cite}
+\usepackage{multirow} % https://www.ctan.org/pkg/multirow
+\usepackage{float} % https://www.ctan.org/pkg/float
+\usepackage{booktabs} % https://www.ctan.org/pkg/booktabs
+\usepackage{enumitem} % https://www.ctan.org/pkg/enumitem
+\usepackage{quoting} % https://www.ctan.org/pkg/quoting
+\usepackage{epigraph}
+\usepackage{subfigure}
+\usepackage{anyfontsize}
+\usepackage{caption}
+\usepackage{adjustbox}
+\usepackage{bm}
+\usepackage{scalefnt}
+
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+\begin{figure}[h!]
+	\centering
+		\includegraphics[width=0.25\textwidth, keepaspectratio]{imagens/unb.png}
+	\label{fig:unb}
+\end{figure}
+{\bf \large Universidade de Brasília \\
+\bf Departamento de Estatística}
+\vspace{5cm}
+
+\setcounter{page}{0}
+\null
+\textbf{\large Título do relatório}
+\vspace{2.5cm}
+
+
+\vspace{0.2cm}
+\textbf{Erick Cavalcante Nasareth (190127881)}
+\end{center}
+\vspace{1.5cm}
+
+\begin{flushright}
+\begin{minipage}{7.5cm}
+\parbox[t]{7.5cm}{Professora: Ana Maria Nogales Vasconcelos}
+\end{minipage}
+\end{flushright}
+
+\vspace{5cm}
+
+\begin{center}
+{\bf{Brasília} \\ }
+\bf{2024}
+\end{center}
+
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+$body$
+
+
+\end{document}

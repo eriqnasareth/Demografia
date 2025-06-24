@@ -1,0 +1,37 @@
+ Mortalidade - Rio Grande do Sul
+Óbitos p/Residênc por Faixa Etária det e Ano do Óbito
+Período:2010, 2021
+"Faixa Etária det";"2010";"2021";"Total"
+"0 a 6 dias";718;623;1341
+"7 a 27 dias";276;267;543
+"28 a 364 dias";498;304;802
+"1 a 4 anos";253;232;485
+"5 a 9 anos";164;110;274
+"10 a 14 anos";254;151;405
+"15 a 19 anos";841;603;1444
+"20 a 24 anos";1201;1088;2289
+"25 a 29 anos";1369;1273;2642
+"30 a 34 anos";1461;1716;3177
+"35 a 39 anos";1587;2379;3966
+"40 a 44 anos";2339;3144;5483
+"45 a 49 anos";3408;4195;7603
+"50 a 54 anos";4395;5665;10060
+"55 a 59 anos";5572;8437;14009
+"60 a 64 anos";6329;10799;17128
+"65 a 69 anos";7344;12937;20281
+"70 a 74 anos";8463;14173;22636
+"75 a 79 anos";9329;13950;23279
+"80 anos e mais";22111;35610;57721
+"Idade ignorada";73;66;139
+"Total";77985;117722;195707
+ Fonte: MS/SVS/CGIAE - Sistema de Informações sobre Mortalidade - SIM
+ Consulte o site da Secretaria Estadual de Saúde para mais informações.
+ Notas:
+ 
+ Dados finais disponíveis até 2023. Data da atualização dos dados 12/2024.
+ Em 2011, houve uma mudança no conteúdo da Declaração de Óbito, com maior detalhamento das informações coletadas. Para este ano, foram
+ utilizados simultaneamente os dois formulários. Para mais detalhes sobre as mudanças ocorridas e os seus efeitos, veja o documento
+ "Sistema de Informações sobre Mortalidade - SIM. Consolidação da base de dados de 2011".
+ No dia 13/06/2019, os arquivos do SIM referentes ao ano de notificação 2017 foram atualizados, com alteração das causas básicas de 2 registros e exclusão de 1 registro.
+ No dia 01/04/2020, os arquivos do SIM referentes ao ano de notificação 2019 foram atualizados, com alteração das causas básicas de 4 registros e exclusão de 1 registro.
+ 

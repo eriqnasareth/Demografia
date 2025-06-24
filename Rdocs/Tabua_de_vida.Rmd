@@ -1,30 +1,49 @@
 ---
-title: "Tábua de vida"
-author: "Erick Nasareth"
-date: "2025-06-20"
-output: pdf_document
+output: 
+  pdf_document:
+    template: "tex/capa.tex"
 ---
 
+
 ```{r setup, include=FALSE}
+#Definições de chunk
 knitr::opts_chunk$set(echo = TRUE)
+
 ```
 
-## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+```{r}
+#bibliotecas e padronizações
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+p_load("tidyverse")
 
-```{r cars}
-summary(cars)
+source("source/source.R")
 ```
 
-## Including Plots
 
-You can also embed plots, for example:
+```{r}
+#Bancos de dados
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+populacao <- read.csv("dados/pop_projetada_RS_2010_2021.csv", sep = ";", skip = 4, nrows = 19, col.names = c("Idade", "2010", "2021"))
+obitos    <- read.csv("dados/sim_RS_2010_2021.csv", sep = ";", skip = 3, nrows = 20, col.names = c("Idade", "2010", "2021", "Total"))
+
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+# Questão 3 -  Trabalho 1
+
+## Taxas Específicas de mortalidade
+
+```{r}
+obitos[1:4, ] <- obitos[1:4, ] %>%
+  summarise(Idade = "0 a 4 anos",
+            "2010" = sum(X2010),
+            "2021" = sum(X2021))
+```
+
+
+
+
+
+
